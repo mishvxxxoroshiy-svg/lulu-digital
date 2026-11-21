@@ -1,0 +1,72 @@
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#191b18">
+<title>LULU DIGITAL</title>
+<style>
+*{box-sizing:border-box}
+body{margin:0;background:#f5f3ee;color:#20211e;font-family:Arial,sans-serif}
+header{padding:20px 6%;display:flex;justify-content:space-between;border-bottom:1px solid #e5e1d8}
+.logo{font-weight:bold;letter-spacing:4px}
+.logo span{color:#b99a68}
+main{max-width:1000px;margin:auto;padding:45px 6%}
+small{color:#a78b5f;letter-spacing:3px;font-weight:bold}
+h1{font:clamp(44px,9vw,78px) Georgia,serif;line-height:1;margin:20px 0}
+h1 em{color:#a78b5f;font-weight:normal}
+p{line-height:1.7;color:#77786f}
+.hero{background:#191b18;color:white;padding:30px;border-radius:24px;margin:35px 0}
+.hero p{color:#c4c4bb}
+h2{font:34px Georgia,serif;font-weight:normal;margin:12px 0 22px}
+.cards{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+.card{padding:25px;border-radius:20px;min-height:190px;display:flex;flex-direction:column;justify-content:space-between}
+.coffee{background:#292b25;color:white}
+.bistro{background:#e8e0d3;color:#29251f}
+.card h3{font:30px Georgia,serif;font-weight:normal;margin:15px 0}
+.card p{font-size:13px}
+a{color:inherit}
+.btn{display:inline-block;background:#191b18;color:white;padding:14px 20px;border-radius:30px;text-decoration:none;margin-top:12px;font-size:13px}
+.features{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}
+.feature{background:#ebe8e0;padding:20px;border-radius:16px}
+.feature h3{font:21px Georgia,serif;font-weight:normal}
+footer{background:#191b18;color:white;padding:28px 6%;margin-top:45px}
+footer p{color:#aaa;font-size:12px}
+@media(max-width:600px){.cards,.features{grid-template-columns:1fr}main{padding-top:35px}.card{min-height:155px}}
+</style>
+</head>
+<body>
+<header><div class="logo">LULU<span>.</span>DIGITAL</div><small>ORAL · KZ</small></header>
+<main>
+<small>GLOBAL COFFEE × LULU BISTRO BAKERY</small>
+<h1>Вкус встречается<br><em>с технологиями.</em></h1>
+<p>Единое цифровое пространство двух любимых концепций. Меню, заказы и привилегии — в одном месте.</p>
+<div class="hero">
+<small>ONE PLACE · TWO EXPERIENCES</small>
+<h2 style="color:white">Ваше место.<br>Ваши моменты.</h2>
+<p>Два пространства. Единая цифровая платформа.</p>
+</div>
+<small>DISCOVER</small>
+<h2>Выберите настроение</h2>
+<div class="cards">
+<div class="card coffee"><div><small>COFFEE · DAILY RITUALS</small><h3>Global Coffee</h3><p>Кофе, любимые напитки и моменты для себя.</p></div><a href="#menu">Перейти к кофейне ↗</a></div>
+<div class="card bistro"><div><small>BISTRO · BAKERY</small><h3>Lulu Bistro Bakery</h3><p>Завтраки, блюда кухни и свежая выпечка.</p></div><a href="#menu">Перейти в бистро ↗</a></div>
+</div>
+<section id="menu" style="padding-top:45px">
+<small>MENU</small><h2>Меню</h2>
+<p>Скоро здесь появятся блюда, фотографии, состав и актуальные цены.</p>
+<a class="btn" href="https://lulu-menu.pages.dev/ru/menu/">Открыть действующее меню ↗</a>
+</section>
+<section style="padding-top:35px">
+<small>MORE THAN A MENU</small><h2>Всё для гостя</h2>
+<div class="features">
+<div class="feature"><h3>Заказ онлайн</h3><p>Корзина, самовывоз и доставка.</p></div>
+<div class="feature"><h3>Бонусная карта</h3><p>Профиль, QR-карта и привилегии.</p></div>
+<div class="feature"><h3>Бронирование</h3><p>Выбор даты, времени и гостей.</p></div>
+</div>
+</section>
+</main>
+<footer><div class="logo">LULU<span>.</span>DIGITAL</div><p>GLOBAL COFFEE × LULU BISTRO BAKERY<br>Назарбаева, 195 · Oral, Kazakhstan</p><small>DEMO CONCEPT · NOT CONNECTED TO POS</small><p>Демонстрационная версия. Заказы и платежи пока не активны.</p></footer>
+</body>
+</html>
